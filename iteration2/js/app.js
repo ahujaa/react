@@ -44,9 +44,9 @@ var EmployeeList = React.createClass({
 var HomePage = React.createClass({
 	render: function(){
 		var employees = [
-		{firstName:'Anjali', lastName:'Ahuja'},
-		{firstName:'Seimith', lastName'Suth'},
-		{firstName:'Bruno', lastName'Fonzi'}
+		{firstName:'Anjali ', lastName:'Ahuja'},
+		{firstName:'Seimith ', lastName:'Suth'},
+		{firstName:'Bruno ', lastName:'Fonzi'}
 		];
 		return(
 			<div>	
