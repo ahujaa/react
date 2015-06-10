@@ -1,7 +1,7 @@
 var Header = React.createClass({
 	render: function(){
 		return(
-			<h1 className="title">(this.props.text}</h1>
+			<h1 className="title">{this.props.text}</h1>
 				);
 	}
 });
@@ -31,13 +31,12 @@ var HomePage = React.createClass({
 			<div>	
 				<Header text="Employee Directory"/>
 				<SearchBar />
-				<Employee List />
+				<EmployeeList />
 				</div>
 			);
 	}
 });
 
 React.render(
-	<HomePage />
-	document.body
+	<HomePage />, document.body
 	);
